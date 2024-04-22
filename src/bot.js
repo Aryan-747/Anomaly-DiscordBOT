@@ -8,7 +8,7 @@ client.commands = new Collection();
 client.commandArray = [];
 
 
-const functionFolders = fs.readdirSync('./src/functions');
+const functionFolders = fs.readdirSync(`./src/functions`);
 
 for(const folder of functionFolders)
 {
